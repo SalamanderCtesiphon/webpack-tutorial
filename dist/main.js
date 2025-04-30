@@ -16,7 +16,7 @@
   \*************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   greeting: () => (/* binding */ greeting)\n/* harmony export */ });\n// greeting.js\nconst greeting = \"Hello, Odinite!\";\n\n\n//# sourceURL=webpack://webpack-tutorial/./src/greeting.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   greeting: () => (/* binding */ greeting)\n/* harmony export */ });\n// greeting.js\nconst greeting = \"Hello, Odinite!\";\n// This module exports a constant greeting message that can be imported and used in other modules.\n// It serves as a simple example of how to create and export a variable in a JavaScript module.\n// This greeting can be used in various parts of an application to provide a consistent message.\n// It can be imported in other files using the import statement, allowing for modular code organization.\n// This is useful for maintaining a single source of truth for the greeting message, making it easy to update in one place if needed.\n// This approach is commonly used in JavaScript applications to promote code reusability and maintainability.\n// It can be used in conjunction with build tools like Webpack to bundle the code for production use.\n\n\n//# sourceURL=webpack://webpack-tutorial/./src/greeting.js?");
 
 /***/ }),
 
@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _greeting_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./greeting.js */ \"./src/greeting.js\");\n// index.js\n\n\nconsole.log(_greeting_js__WEBPACK_IMPORTED_MODULE_0__.greeting);\n\n\n//# sourceURL=webpack://webpack-tutorial/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _greeting_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./greeting.js */ \"./src/greeting.js\");\n// index.js\n\n\nconsole.log(_greeting_js__WEBPACK_IMPORTED_MODULE_0__.greeting);\n// This is the main entry point of the application.\n// It imports the greeting constant from the greeting.js module and logs it to the console.\n// This allows the greeting message to be displayed when the application runs, demonstrating how modules can interact in a JavaScript application.\n// This structure promotes modularity and separation of concerns, making the codebase easier to maintain and understand.\n\n\n//# sourceURL=webpack://webpack-tutorial/./src/index.js?");
 
 /***/ })
 
