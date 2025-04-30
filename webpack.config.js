@@ -15,7 +15,16 @@ module.exports = {
       template: "./src/template.html",
     }),
   ],
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      },
+    ],
+  },
 };
+
 
 // This configuration sets up Webpack to bundle the JavaScript files from the src directory,
 // outputting the bundled file as main.js in the dist directory. The clean option ensures that the dist directory is cleaned before each build.
